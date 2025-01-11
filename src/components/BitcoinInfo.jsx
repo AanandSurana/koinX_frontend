@@ -15,7 +15,7 @@ const BitcoinInfo = ({tabs, sectionRefs}) => {
           dangerouslySetInnerHTML={{ __html: detailedData }}
         ></div>
       </div>
-
+      <hr />
       {/* Lorem Section */}
       <div>
         <h3 className="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet</h3>
@@ -36,10 +36,10 @@ const BitcoinInfo = ({tabs, sectionRefs}) => {
           magna eget eros donec cursus nunc.
         </p>
       </div>
-
+<hr />
 {/* Already Holding Bitcoin Section */}
 <div>
-  <h3 className="text-lg text-white font-semibold mb-4">Already Holding Bitcoin?</h3>
+  <h3 className="text-lg font-semibold mb-4">Already Holding Bitcoin?</h3>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
     {/* Calculate Profits */}
     <div className="p-5 text-white  bg-gradient-to-r from-green-400 to-cyan-600 rounded-lg flex items-center space-x-4 transition duration-1000 hover:from-green-400 hover:to-blue-600">
@@ -48,7 +48,7 @@ const BitcoinInfo = ({tabs, sectionRefs}) => {
       </div>
       <div>
         <h4 className="font-medium">Calculate your Profits</h4>
-        <button className="mt-2 px-4 py-1 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+        <button className="mt-2 px-4 py-1 bg-white text-black rounded-lg hover:bg-blue-600">
           Check Now
         </button>
       </div>
@@ -63,7 +63,7 @@ const BitcoinInfo = ({tabs, sectionRefs}) => {
         <h4 className="font-medium">
           Calculate your tax liability
         </h4>
-        <button className="mt-2 px-4 py-1 bg-red-500 text-white rounded-lg hover:bg-red-600">
+        <button className="mt-2 px-4 py-1 bg-white text-black rounded-lg hover:bg-red-600">
           Check Now
         </button>
       </div>

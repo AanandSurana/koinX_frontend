@@ -3,14 +3,16 @@ import React from 'react';
 const Tokenomics = ({tabs, sectionRefs}) => {
   return (
     <div key={tabs.Tokenomics} ref={sectionRefs.Tokenomics} className="mx-auto bg-white my-5 p-6 py-8 border rounded-lg shadow-lg">
-      <h2 className="text-2xl font-semibold mb-4">Tokenomics</h2>
-      <h3 className='font-semibold my-2'>Initial Distribution</h3>
+      <h2 className="text-2xl font-semibold mb-6">Tokenomics</h2>
+      <h3 className='font-semibold my-4'>Initial Distribution</h3>
       <div className="md:flex items-center gap-6">
         {/* Chart */}
         <div
-          className="w-36 h-36 bg-gradient-to-tr from-blue-500 to-yellow-400 rounded-full"
+          className="flex items-center justify-center w-36 h-36 bg-gradient-to-tr from-blue-500 to-yellow-500 rounded-full"
           style={{ background: 'conic-gradient(#007bff 0% 80%, #ffc107 80% 100%)' }}
-        ></div>
+        >
+          <div className='h-24 w-24 bg-white rounded-full'></div>
+        </div>
 
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2 text-sm">
@@ -18,7 +20,7 @@ const Tokenomics = ({tabs, sectionRefs}) => {
             Crowdsale investors: 80%
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <div className="w-4 h-4 bg-yellow-400 rounded"></div>
+            <div className="w-4 h-4 bg-yellow-500 rounded"></div>
             Foundation: 20%
           </div>
         </div>
