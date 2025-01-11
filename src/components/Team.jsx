@@ -3,25 +3,25 @@ import React from 'react';
 const Team = ({tabs, sectionRefs}) => {
   const members = [
     {
-      name: 'John Smith',
-      designation: 'Designation here',
+      name: 'Aanand Surana',
+      designation: 'MTS AT ZL TECHNOLOGY',
       description:
-        'Lorem ipsum dolor sit amet consectetur. In justo rutrum sit sit fermentum ut libero hendrerit id. Tellus sit ornare netus sagittis in nunc convallis mattis maecenas. Tempus arcu leo sociis laoreet nec neque sed pellentesque viverra.',
-      image: 'https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg',
+        'I am Aanand Surana, a B.Tech student in Computer Science at IIIT Lucknow with expertise in full-stack development using React.js and Node.js. I have built impactful projects like Influencia and Bro Code, showcasing skills in real-time communication, collaboration, and data-driven solutions. ',
+      image: 'https://media.licdn.com/dms/image/v2/D4D35AQHJn5Xp3cj0Pg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1724435715480?e=1737212400&v=beta&t=l15z3ofBEjqds9Db29oULmCovUmaFGbnzHYHQHCoOas',
     },
     {
-      name: 'Elina Williams',
-      designation: 'Designation here',
+      name: 'Aanand Surana',
+      designation: 'SDE Intern at LazyYatra',
       description:
-        'Lorem ipsum dolor sit amet consectetur. In justo rutrum sit sit fermentum ut libero hendrerit id. Tellus sit ornare netus sagittis in nunc convallis mattis maecenas. Tempus arcu leo sociis laoreet nec neque sed pellentesque viverra.',
-      image: 'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_1_1200x1200/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=1-9sfjwH',
+        'With a solid foundation in C++, CS fundamentals, and competitive programming, I hold a 4-star rating on CodeChef and an Expert rank on Codeforces. Additionally, I have research and internship experience, blending technical proficiency with problem-solving capabilities.',
+      image: 'https://media.licdn.com/dms/image/v2/D4D35AQHJn5Xp3cj0Pg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1724435715480?e=1737212400&v=beta&t=l15z3ofBEjqds9Db29oULmCovUmaFGbnzHYHQHCoOas',
     },
     {
-      name: 'John Smith',
-      designation: 'Designation here',
+      name: 'Aanand Surana',
+      designation: 'GentleMan',
       description:
         'Lorem ipsum dolor sit amet consectetur. In justo rutrum sit sit fermentum ut libero hendrerit id. Tellus sit ornare netus sagittis in nunc convallis mattis maecenas. Tempus arcu leo sociis laoreet nec neque sed pellentesque viverra.',
-      image: 'https://img.freepik.com/free-photo/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.jpg',
+      image: 'https://media.licdn.com/dms/image/v2/D4D35AQHJn5Xp3cj0Pg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1724435715480?e=1737212400&v=beta&t=l15z3ofBEjqds9Db29oULmCovUmaFGbnzHYHQHCoOas',
     },
   ];
 
